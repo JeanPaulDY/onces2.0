@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/naranja_main"
+    tools:context=".view.ui.activities.RecuperarActivity">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/fondo_onces" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="55dp"
+        android:fontFamily="@font/roboto_mono_bold_italic"
+        android:text="RECUPERAR CONTRASEÑA"
+        android:textColor="@color/black"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginEnd="80dp"
+        android:fontFamily="@font/roboto_mono_bold"
+        android:text="Usuario"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="242dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="210dp"
+        android:layout_marginEnd="80dp"
+        android:background="@drawable/borde_redondoblanco"
+        android:fontFamily="@font/roboto_mono_medium_italic"
+        android:text="ingrese su usuario"
+        android:textAlignment="center"
+        android:textColor="#C1BDBD"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginEnd="80dp"
+        android:fontFamily="@font/roboto_mono_bold"
+        android:text="Email"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="242dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="310dp"
+        android:layout_marginEnd="80dp"
+        android:background="@drawable/borde_redondoblanco"
+        android:fontFamily="@font/roboto_mono_medium_italic"
+        android:text="ingrese su email"
+        android:textAlignment="center"
+        android:textColor="#C1BDBD"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="242dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="420dp"
+        android:background="@drawable/borde_redondo"
+        android:fontFamily="@font/roboto_mono_medium_italic"
+        android:text="RECUPERAR"
+        android:textColor="@color/black"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        app:srcCompat="@drawable/logo_trans" />
+</RelativeLayout>

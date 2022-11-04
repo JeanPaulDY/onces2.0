@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.onces20.view.ui.fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_perfilFragment"
+            app:destination="@id/perfilFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_productosFragment"
+            app:destination="@id/productosFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_favoritosFragment"
+            app:destination="@id/favoritosFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_ruta_PedidosFragment"
+            app:destination="@id/ruta_PedidosFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_configuracionFragment"
+            app:destination="@id/configuracionFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_acerca_DeFragment"
+            app:destination="@id/acerca_DeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/perfilFragment"
+        android:name="com.example.onces20.view.ui.fragments.PerfilFragment"
+        android:label="fragment_perfil"
+        tools:layout="@layout/fragment_perfil" />
+    <fragment
+        android:id="@+id/productosFragment"
+        android:name="com.example.onces20.view.ui.fragments.ProductosFragment"
+        android:label="fragment_productos"
+        tools:layout="@layout/fragment_productos" />
+    <fragment
+        android:id="@+id/favoritosFragment"
+        android:name="com.example.onces20.view.ui.fragments.FavoritosFragment"
+        android:label="fragment_favoritos"
+        tools:layout="@layout/fragment_favoritos" />
+    <fragment
+        android:id="@+id/ruta_PedidosFragment"
+        android:name="com.example.onces20.view.ui.fragments.Ruta_PedidosFragment"
+        android:label="fragment_ruta__pedidos"
+        tools:layout="@layout/fragment_ruta__pedidos" />
+    <fragment
+        android:id="@+id/configuracionFragment"
+        android:name="com.example.onces20.view.ui.fragments.ConfiguracionFragment"
+        android:label="fragment_configuracion"
+        tools:layout="@layout/fragment_configuracion" />
+    <fragment
+        android:id="@+id/acerca_DeFragment"
+        android:name="com.example.onces20.view.ui.fragments.Acerca_DeFragment"
+        android:label="fragment_acerca__de"
+        tools:layout="@layout/fragment_acerca__de" />
+</navigation>

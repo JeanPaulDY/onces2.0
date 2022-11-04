@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "212715887544",
+    "project_id": "oncesapp",
+    "storage_bucket": "oncesapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:212715887544:android:d533723ad0488b92ad8d4d",
+        "android_client_info": {
+          "package_name": "com.example.onces20"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "212715887544-0opa5apehsvg9l9e297ehqr9q1i0f9lv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzs11MhTiw0QSCqOp2MHyVdkPJKa0WYpw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "212715887544-0opa5apehsvg9l9e297ehqr9q1i0f9lv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:212715887544:android:7b74868e69d69a68ad8d4d",
+        "android_client_info": {
+          "package_name": "com.example.onces20.view.UI.activities"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "212715887544-0opa5apehsvg9l9e297ehqr9q1i0f9lv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzs11MhTiw0QSCqOp2MHyVdkPJKa0WYpw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "212715887544-0opa5apehsvg9l9e297ehqr9q1i0f9lv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

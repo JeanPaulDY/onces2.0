@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/naranja_main"
+    tools:context=".view.ui.activities.LoginActivity">
+
+    <ImageView
+        android:id="@+id/fondo"
+        android:layout_width="414dp"
+        android:layout_height="739dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/fondo_onces" />
+
+    <ImageView
+        android:id="@+id/logoinicio"
+        android:layout_width="300dp"
+        android:layout_height="350dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/logo_trans"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:layout_marginBottom="90dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <EditText
+            android:id="@+id/editTextTextEmailAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginStart="85dp"
+            android:background="@color/white"
+            android:drawableLeft="@drawable/ic_username"
+            android:ems="10"
+            android:hint="Ingrese Email"
+            android:inputType="textEmailAddress"
+            android:textColor="#4E4D4D"
+            tools:layout_marginEnd="85dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="12dp" />
+
+        <EditText
+            android:id="@+id/editTextTextPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginStart="85dp"
+            android:layout_marginEnd="85dp"
+            android:background="@color/white"
+            android:drawableLeft="@drawable/ic_password"
+            android:ems="10"
+            android:hint="Ingrese Contraseña"
+            android:inputType="textPassword"
+            android:textColor="#918E8E" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/BTinicio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="80dp"
+                android:layout_marginEnd="80dp"
+                android:background="@drawable/borde_redondo"
+                android:text="INGRESAR"
+                android:textColor="@color/black"
+                app:iconTint="@color/black" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <Button
+                android:id="@+id/BTregistro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="80dp"
+                android:layout_marginEnd="80dp"
+                android:background="@drawable/borde_redondo"
+                android:backgroundTint="@color/amarillo_main"
+                android:text="REGISTRARSE"
+                android:textColor="@color/black" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:id="@+id/BTrecuperar"
+                android:layout_width="165dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="160dp"
+                android:layout_marginEnd="100dp"
+                android:text="@string/recuperar"
+                android:textColor="#3F51B5"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
