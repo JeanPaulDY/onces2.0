@@ -18,6 +18,6 @@ class Acerca_DeFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_acerca__de, container, false)
+        return inflater.inflate(R.layout.fragment_acerca_de, container, false)
     }
 }

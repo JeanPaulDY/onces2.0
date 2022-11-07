@@ -68,5 +68,5 @@
         android:id="@+id/acerca_DeFragment"
         android:name="com.example.onces20.view.ui.fragments.Acerca_DeFragment"
         android:label="fragment_acerca__de"
-        tools:layout="@layout/fragment_acerca__de" />
+        tools:layout="@layout/fragment_acerca_de" />
 </navigation>

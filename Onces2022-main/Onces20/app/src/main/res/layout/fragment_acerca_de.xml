@@ -4,11 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".view.ui.fragments.ConfiguracionFragment">
+    tools:context=".view.ui.fragments.Acerca_DeFragment">
 
     <ImageView
-        android:id="@+id/imageView9"
+        android:id="@+id/imageView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/configuracion_fondo" />
+        android:src="@drawable/acerca_de_fondo" />
+
 </FrameLayout>
