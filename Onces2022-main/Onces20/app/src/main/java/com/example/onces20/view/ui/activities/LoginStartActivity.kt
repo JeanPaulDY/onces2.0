@@ -12,7 +12,7 @@ class LoginStartActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login_start)
-        homebutton= findViewById(R.id.BThomePr)
+        homebutton= findViewById(R.id.BThomemain)
 
         homebutton.setOnClickListener {
             startActivity(Intent(this, HomeFragment::class.java))

@@ -1,3 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:android="http://schemas.android.com/apk/res/android"/>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homebar"
+        android:title="Home"
+        android:icon="@drawable/homebar">
+    </item>
+    <item
+        android:id="@+id/perfilbar"
+        android:title="Perfil"
+        android:icon="@drawable/perfilbar">
+    </item>
+    <item
+        android:id="@+id/mapabar"
+        android:title="Mapa"
+        android:icon="@drawable/mapabar">
+    </item>
+
+</menu>
