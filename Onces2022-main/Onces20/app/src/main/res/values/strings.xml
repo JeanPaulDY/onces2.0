@@ -1,6 +1,9 @@
 <resources>
     <string name="app_name">Onces2.0</string>
     <string name="recuperar"><u>Recuperar Contraseña</u></string>
+    <string name="Bienvenido"><u>BIENVENIDO</u></string>
+    <string name="INICIO">INICIO</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="user">user</string>
 </resources>
