@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/amarillo_main"
+    android:background="@drawable/fondo_app_canva"
     tools:context=".view.ui.activities.MakeAnOrderActivity">
 
     <Button
@@ -13,6 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="60dp"
         android:layout_marginEnd="60dp"
+        android:background="@drawable/borde_redondo"
         android:backgroundTint="@color/white"
         android:text="Pedir"
         android:textColor="@color/black"
@@ -27,6 +28,7 @@
         android:layout_marginStart="60dp"
         android:layout_marginEnd="60dp"
         android:text="Enviar Pedido"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="26dp" />
@@ -36,6 +38,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Subtotal"
+        android:textStyle="bold"
         tools:layout_editor_absoluteX="98dp"
         tools:layout_editor_absoluteY="495dp" />
 
@@ -44,6 +47,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Total"
+        android:textStyle="bold"
         tools:layout_editor_absoluteX="118dp"
         tools:layout_editor_absoluteY="546dp" />
 
@@ -67,16 +71,16 @@
 
     <ImageView
         android:id="@+id/imageView8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="104dp"
+        android:layout_height="104dp"
         app:srcCompat="@drawable/combo2"
-        tools:layout_editor_absoluteX="40dp"
-        tools:layout_editor_absoluteY="225dp" />
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="203dp" />
 
     <ImageView
         android:id="@+id/imageView9"
-        android:layout_width="106dp"
-        android:layout_height="82dp"
+        android:layout_width="108dp"
+        android:layout_height="103dp"
         app:srcCompat="@drawable/combo3"
         tools:layout_editor_absoluteX="44dp"
         tools:layout_editor_absoluteY="333dp" />
@@ -86,6 +90,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Combo 2"
+        android:textStyle="bold"
         tools:layout_editor_absoluteX="163dp"
         tools:layout_editor_absoluteY="225dp" />
 
@@ -94,6 +99,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Combo 3"
+        android:textStyle="bold"
         tools:layout_editor_absoluteX="160dp"
         tools:layout_editor_absoluteY="333dp" />
 
@@ -104,6 +110,7 @@
         android:layout_marginStart="160dp"
         android:layout_marginEnd="80dp"
         android:text="Wafles con fresas y arandanos+cholocolate importado+ jugo natural"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -114,6 +121,7 @@
         android:layout_width="218dp"
         android:layout_height="54dp"
         android:text="Arepa Boyacense+frituras+gaseosa familiar"
+        android:textStyle="bold"
         tools:layout_editor_absoluteX="160dp"
         tools:layout_editor_absoluteY="364dp" />
 
