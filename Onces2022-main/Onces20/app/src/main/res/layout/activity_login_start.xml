@@ -12,7 +12,9 @@
         android:layout_height="735dp"
         app:srcCompat="@drawable/fondo_onces"
         tools:layout_editor_absoluteX="-45dp"
-        tools:layout_editor_absoluteY="-2dp" />
+        tools:layout_editor_absoluteY="-2dp"
+        app:layout_constraintWidth="match_parent"
+        tools:ignore="ContentDescription,MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView4"
@@ -22,7 +24,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/fondo_onces" />
+        app:srcCompat="@drawable/fondo_onces"
+        tools:ignore="ContentDescription" />
 
     <ImageView
         android:id="@+id/imageView3"
@@ -36,7 +39,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/logo_trans" />
+        app:srcCompat="@drawable/logo_trans"
+        tools:ignore="ContentDescription" />
 
     <TextView
         android:id="@+id/textView2"
@@ -47,7 +51,7 @@
         android:layout_marginEnd="250dp"
         android:layout_marginBottom="500dp"
         android:fontFamily="@font/roboto_mono_bold_italic"
-        android:text="BIENVENIDO!"
+        android:text="@string/Bienvenido"
         android:textColor="@color/black"
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -66,7 +70,7 @@
         android:layout_marginEnd="650dp"
         android:layout_marginBottom="950dp"
         android:fontFamily="@font/roboto_mono_medium_italic"
-        android:hint="user"
+        android:hint="@string/user"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -74,7 +78,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
     <Button
-        android:id="@+id/BThomePr"
+        android:id="@+id/BThomemain"
         android:layout_width="238dp"
         android:layout_height="83dp"
         android:layout_marginStart="500dp"
@@ -83,7 +87,7 @@
         android:layout_marginBottom="500dp"
         android:background="@drawable/borde_redondo"
         android:fontFamily="@font/roboto_mono_bold_italic"
-        android:text="INICIO"
+        android:text="@string/INICIO"
         android:textColor="@color/black"
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/imageView3"

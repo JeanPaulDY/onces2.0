@@ -36,9 +36,19 @@
         tools:layout="@layout/fragment_perfil" />
     <fragment
         android:id="@+id/productosFragment"
-        android:name="com.example.onces20.view.ui.fragments.ProductosFragment"
+        android:name="com.example.onces20.view.ui.fragments.ProductsFragment"
         android:label="fragment_productos"
-        tools:layout="@layout/fragment_productos" />
+        tools:layout="@layout/fragment_productos" >
+        <action
+            android:id="@+id/action_productosFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_productosFragment_to_ruta_PedidosFragment"
+            app:destination="@id/ruta_PedidosFragment" />
+        <action
+            android:id="@+id/action_productosFragment_to_perfilFragment"
+            app:destination="@id/perfilFragment" />
+    </fragment>
     <fragment
         android:id="@+id/favoritosFragment"
         android:name="com.example.onces20.view.ui.fragments.FavoritosFragment"
@@ -58,5 +68,5 @@
         android:id="@+id/acerca_DeFragment"
         android:name="com.example.onces20.view.ui.fragments.Acerca_DeFragment"
         android:label="fragment_acerca__de"
-        tools:layout="@layout/fragment_acerca__de" />
+        tools:layout="@layout/fragment_acerca_de" />
 </navigation>
