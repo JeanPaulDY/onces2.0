@@ -19,7 +19,7 @@ class LoginActivity : AppCompatActivity() {
         recuperarbutton= findViewById(R.id.BTrecuperar)
 
         iniciobutton.setOnClickListener {
-            startActivity(Intent(this, LoginStartActivity::class.java))
+            startActivity(Intent(this, HomeActivity::class.java))
         }
         registrobutton.setOnClickListener {
             startActivity(Intent(this, RegisterActivity::class.java))
