@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/amarillo_main"
+    tools:context=".view.ui.activities.MakeAnOrderActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginEnd="60dp"
+        android:backgroundTint="@color/white"
+        android:text="Pedir"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="614dp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginEnd="60dp"
+        android:text="Enviar Pedido"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="26dp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Subtotal"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="495dp" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total"
+        tools:layout_editor_absoluteX="118dp"
+        tools:layout_editor_absoluteY="546dp" />
+
+    <EditText
+        android:id="@+id/editTextNumberSigned"
+        android:layout_width="150dp"
+        android:layout_height="49dp"
+        android:ems="10"
+        android:inputType="numberSigned"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="478dp" />
+
+    <EditText
+        android:id="@+id/editTextNumber2"
+        android:layout_width="151dp"
+        android:layout_height="49dp"
+        android:ems="10"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="527dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/combo2"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="225dp" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="106dp"
+        android:layout_height="82dp"
+        app:srcCompat="@drawable/combo3"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="333dp" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Combo 2"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="225dp" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Combo 3"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="333dp" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="219dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="160dp"
+        android:layout_marginEnd="80dp"
+        android:text="Wafles con fresas y arandanos+cholocolate importado+ jugo natural"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="252dp" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="218dp"
+        android:layout_height="54dp"
+        android:text="Arepa Boyacense+frituras+gaseosa familiar"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="364dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="317dp"
+        android:layout_height="47dp"
+        android:backgroundTint="@color/white"
+        android:text="Metodo de pago"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="124dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="317dp"
+        android:layout_height="44dp"
+        android:backgroundTint="@color/white"
+        android:text="Agregar Direccion"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="76dp" />
+
