@@ -11,4 +11,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/favoritos_fondo" />
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/buttonnavigation"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/amarillo_main"
+        android:layout_marginTop="670dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:menu="@menu/menu_navigation_bar">
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
 </FrameLayout>

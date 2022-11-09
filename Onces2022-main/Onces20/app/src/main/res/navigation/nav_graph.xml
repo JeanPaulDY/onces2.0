@@ -63,10 +63,37 @@
         android:id="@+id/configuracionFragment"
         android:name="com.example.onces20.view.ui.fragments.ConfiguracionFragment"
         android:label="fragment_configuracion"
-        tools:layout="@layout/fragment_configuracion" />
+        tools:layout="@layout/fragment_configuracion" >
+        <action
+            android:id="@+id/action_configuracionFragment_to_ruta_PedidosFragment"
+            app:destination="@id/ruta_PedidosFragment" />
+        <action
+            android:id="@+id/action_configuracionFragment_to_perfilFragment"
+            app:destination="@id/perfilFragment" />
+        <action
+            android:id="@+id/action_configuracionFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
     <fragment
         android:id="@+id/acerca_DeFragment"
-        android:name="com.example.onces20.view.ui.fragments.Acerca_DeFragment"
+        android:name="com.example.onces20.view.ui.fragments.AcercaDeFragment"
         android:label="fragment_acerca__de"
-        tools:layout="@layout/fragment_acerca_de" />
+        tools:layout="@layout/fragment_acerca_de" >
+        <action
+            android:id="@+id/action_acerca_DeFragment_to_comentariosFragment"
+            app:destination="@id/comentariosFragment" />
+        <action
+            android:id="@+id/action_acerca_DeFragment_to_contactenosFragment"
+            app:destination="@id/contactenosFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/comentariosFragment"
+        android:name="com.example.onces20.view.ui.fragments.ComentariosFragment"
+        android:label="fragment_comentarios"
+        tools:layout="@layout/fragment_comentarios" />
+    <fragment
+        android:id="@+id/contactenosFragment"
+        android:name="com.example.onces20.view.ui.fragments.ContactenosFragment"
+        android:label="fragment_contactenos"
+        tools:layout="@layout/fragment_contactenos" />
 </navigation>
