@@ -37,7 +37,7 @@
         android:textSize="20sp" />
 
     <TextView
-        android:id="@+id/textView13"
+        android:id="@+id/textViewUsuarioRecuperar"
         android:layout_width="242dp"
         android:layout_height="44dp"
         android:layout_marginStart="80dp"
@@ -45,7 +45,7 @@
         android:layout_marginEnd="80dp"
         android:background="@drawable/borde_redondoblanco"
         android:fontFamily="@font/roboto_mono_medium_italic"
-        android:text="ingrese su usuario"
+        android:hint="ingrese su usuario"
         android:textAlignment="center"
         android:textColor="#C1BDBD"
         android:textSize="20sp" />
@@ -62,8 +62,8 @@
         android:textColor="@color/black"
         android:textSize="20sp" />
 
-    <TextView
-        android:id="@+id/textView16"
+    <EditText
+        android:id="@+id/CorreoRecuperar"
         android:layout_width="242dp"
         android:layout_height="44dp"
         android:layout_marginStart="80dp"
@@ -71,13 +71,13 @@
         android:layout_marginEnd="80dp"
         android:background="@drawable/borde_redondoblanco"
         android:fontFamily="@font/roboto_mono_medium_italic"
-        android:text="ingrese su email"
+        android:hint="ingrese su email"
         android:textAlignment="center"
         android:textColor="#C1BDBD"
         android:textSize="20sp" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/buttonRecuperarMain"
         android:layout_width="242dp"
         android:layout_height="66dp"
         android:layout_marginStart="80dp"

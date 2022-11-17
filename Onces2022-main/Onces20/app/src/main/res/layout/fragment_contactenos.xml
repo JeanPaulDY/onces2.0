@@ -65,4 +65,13 @@
         app:layout_constraintEnd_toEndOf="@+id/imageView11"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="@+id/imageView11" />
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/buttonnavigation"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/amarillo_main"
+        android:layout_marginTop="670dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:menu="@menu/menu_navigation_bar">
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
 </androidx.constraintlayout.widget.ConstraintLayout>
