@@ -53,7 +53,17 @@
         android:id="@+id/favoritosFragment"
         android:name="com.example.onces20.view.ui.fragments.FavoritosFragment"
         android:label="fragment_favoritos"
-        tools:layout="@layout/fragment_favoritos" />
+        tools:layout="@layout/fragment_favoritos" >
+        <action
+            android:id="@+id/action_favoritosFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_favoritosFragment_to_configuracionFragment"
+            app:destination="@id/configuracionFragment" />
+        <action
+            android:id="@+id/action_favoritosFragment_to_perfilFragment"
+            app:destination="@id/perfilFragment" />
+    </fragment>
     <fragment
         android:id="@+id/ruta_PedidosFragment"
         android:name="com.example.onces20.view.ui.fragments.Ruta_PedidosFragment"

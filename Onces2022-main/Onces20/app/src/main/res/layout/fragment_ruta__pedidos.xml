@@ -3,40 +3,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".view.ui.fragments.Ruta_PedidosFragment">
 
-    <LinearLayout
+    <fragment
+        android:id="@+id/map_view"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@color/naranja_main"
-        android:orientation="vertical">
+        android:layout_height="wrap_content"
+        android:name="com.google.android.gms.maps.SupportMapFragment">
+    </fragment>
 
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="32dp"
-            android:layout_marginRight="20dp"
-            android:background="@drawable/theme_gradients_background">
-
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:src="@drawable/logo_trans"
-                >
-
-            </ImageView>
-
-        </RelativeLayout>
-    </LinearLayout>
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/buttonnavigation"
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:background="@color/amarillo_main"
-        android:layout_marginTop="670dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:menu="@menu/menu_navigation_bar">
-    </com.google.android.material.bottomnavigation.BottomNavigationView>
 </FrameLayout>
