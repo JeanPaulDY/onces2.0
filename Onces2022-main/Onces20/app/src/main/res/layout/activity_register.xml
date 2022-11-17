@@ -79,7 +79,7 @@
             android:layout_marginStart="80dp"
             android:layout_marginEnd="100dp"
             android:background="@drawable/borde_redondoblanco"
-            android:hint="     digite su usuario"
+            android:hint="digite su usuario"
             android:textSize="20sp" />
 
         <Space
@@ -103,7 +103,7 @@
             android:layout_marginStart="80dp"
             android:layout_marginEnd="100dp"
             android:background="@drawable/borde_redondoblanco"
-            android:hint="     digite su contraseña"
+            android:hint="digite su contraseña"
             android:textSize="20sp" />
 
         <Space
@@ -127,7 +127,7 @@
             android:layout_marginStart="80dp"
             android:layout_marginEnd="100dp"
             android:background="@drawable/borde_redondoblanco"
-            android:hint="     ingrese un email"
+            android:hint="ingrese un email"
             android:textSize="20sp" />
 
         <Space
@@ -151,7 +151,7 @@
             android:layout_marginStart="80dp"
             android:layout_marginEnd="100dp"
             android:background="@drawable/borde_redondoblanco"
-            android:hint="     digite su telefono"
+            android:hint="digite su telefono"
             android:textSize="20sp" />
 
         <Button
