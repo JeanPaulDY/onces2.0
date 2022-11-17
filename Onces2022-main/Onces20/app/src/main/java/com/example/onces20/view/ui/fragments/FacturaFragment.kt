@@ -9,13 +9,11 @@ import android.widget.Button
 import android.widget.TextView
 import androidx.navigation.fragment.findNavController
 import com.example.onces20.R
-import com.example.onces20.databinding.FragmentFacturaBinding
 import com.example.onces20.databinding.FragmentHacerPedidoBinding
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 
 class FacturaFragment : Fragment() {
-    lateinit var binding: FragmentFacturaBinding
     lateinit var binding: FragmentHacerPedidoBinding
 
     override fun onCreateView(
