@@ -20,4 +20,12 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:menu="@menu/menu_navigation_bar">
     </com.google.android.material.bottomnavigation.BottomNavigationView>
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="30dp"
+        android:layout_height="32dp"
+        android:layout_marginLeft="380dp"
+        android:background="@color/amarillo_main"
+        android:id="@+id/actiontoolbar">
+
+    </androidx.appcompat.widget.Toolbar>
 </FrameLayout>
