@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout6"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.ui.fragments.FacturaTestFragment">
+
+    <Button
+        android:id="@+id/buttonCalcularFT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="140dp"
+        android:layout_marginBottom="140dp"
+        android:text="Calcular"
+        android:textc
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textUnidadFT3"
+        android:layout_width="123dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="112dp"
+        android:text="Valor Unidad"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textCantidadFT2"
+        android:layout_width="123dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="176dp"
+        android:text="Cantidad"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textSubtotalFT25"
+        android:layout_width="123dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="248dp"
+        android:text="Subtotal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textIvaFT2"
+        android:layout_width="123dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="320dp"
+        android:text="Iva "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textTotalFT2"
+        android:layout_width="123dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="400dp"
+        android:text="Total"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textUnidadFT"
+        android:layout_width="123dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="140dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textCantidadFT"
+        android:layout_width="123dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="204dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textSubtotalFT"
+        android:layout_width="123dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="276dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textIvaFT"
+        android:layout_width="123dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="348dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textTotalFT"
+        android:layout_width="123dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="428dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

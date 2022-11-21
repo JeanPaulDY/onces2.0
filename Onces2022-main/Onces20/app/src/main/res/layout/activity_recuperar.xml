@@ -17,12 +17,17 @@
         android:id="@+id/textView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="55dp"
-        android:fontFamily="@font/roboto_mono_bold_italic"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="77dp"
+        android:layout_marginEnd="40dp"
+        android:fontFamily="@font/roboto_mono_medium_italic"
         android:text="RECUPERAR CONTRASEÑA"
+        android:textAlignment="center"
         android:textColor="@color/black"
-        android:textSize="28sp" />
+        android:textSize="30sp" />
 
     <TextView
         android:id="@+id/textView12"
@@ -47,7 +52,7 @@
         android:fontFamily="@font/roboto_mono_medium_italic"
         android:hint="ingrese su usuario"
         android:textAlignment="center"
-        android:textColor="#C1BDBD"
+        android:textColor="#000000"
         android:textSize="20sp" />
 
     <TextView
@@ -73,7 +78,7 @@
         android:fontFamily="@font/roboto_mono_medium_italic"
         android:hint="ingrese su email"
         android:textAlignment="center"
-        android:textColor="#C1BDBD"
+        android:textColor="#000000"
         android:textSize="20sp" />
 
     <Button

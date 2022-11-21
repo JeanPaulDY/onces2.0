@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/factura_fondo" />
+
+    <TextView
+        android:layout_width="160dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="180dp"
+        android:background="@drawable/borde_amarillo_fondo_naranja"
+        android:fontFamily="@font/roboto_mono_medium_italic"
+        android:text="Codigo No"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView18"
+        app:layout_constraintHorizontal_bias="0.88"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView18" />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="244dp"
+        android:background="@drawable/borde_amarillo_fondo_naranja"
+        android:fontFamily="@font/roboto_mono_medium_italic"
+        android:text="A nombre de quien"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView18"
+        app:layout_constraintHorizontal_bias="0.813"
+        app:layout_constraintStart_toStartOf="@+id/imageView18"
+        app:layout_constraintTop_toTopOf="@+id/imageView18" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="180dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="192dp"
+        android:layout_marginTop="308dp"
+        android:background="@drawable/borde_amarillo_fondo_naranja"
+        android:fontFamily="@font/roboto_mono_medium_italic"
+        android:text="Forma de pago"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.831"
+        app:layout_constraintStart_toStartOf="@+id/imageView18"
+        app:layout_constraintTop_toTopOf="@+id/imageView18"
+        app:layout_constraintVertical_bias="0.005" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="150dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="372dp"
+        android:background="@drawable/borde_amarillo_fondo_naranja"
+        android:fontFamily="@font/roboto_mono_medium_italic"
+        android:text="Total prod."
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView18"
+        app:layout_constraintHorizontal_bias="0.846"
+        app:layout_constraintStart_toStartOf="@+id/imageView18"
+        app:layout_constraintTop_toTopOf="@+id/imageView18" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="200dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="436dp"
+        android:background="@drawable/borde_amarillo_fondo_naranja"
+        android:fontFamily="@font/roboto_mono_medium_italic"
+        android:text="Total prod."
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView18"
+        app:layout_constraintHorizontal_bias="0.81"
+        app:layout_constraintStart_toStartOf="@+id/imageView18"
+        app:layout_constraintTop_toTopOf="@+id/imageView18" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="524dp"
+        android:background="@drawable/borde_amarillo_fondo_naranja"
+        android:fontFamily="@font/roboto_mono_medium_italic"
+        android:text="Generar su factura"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView18"
+        app:layout_constraintStart_toStartOf="@+id/imageView18"
+        app:layout_constraintTop_toTopOf="@+id/imageView18" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
