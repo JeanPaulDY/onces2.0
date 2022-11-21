@@ -4,13 +4,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+<<<<<<< Updated upstream
     tools:context=".view.ui.fragments.ProductsFragment">
 
+=======
+    tools:context=".view.ui.fragments.ProductsFragment" >
+>>>>>>> Stashed changes
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/naranja_main"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        tools:ignore="ExtraText">
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -23,9 +28,117 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+<<<<<<< Updated upstream
                 android:src="@drawable/logo_trans"></ImageView>
 
         </RelativeLayout>
+=======
+            <Updated upstream
+                android:src="@drawable/logo_trans"
+            tools:ignore="MissingPrefix">
+            </Updated>
+
+        </RelativeLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="299dp"
+            android:layout_marginEnd="166dp" />
+        =======
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="-3dp"
+                android:layout_marginBottom="0dp"
+                android:src="@drawable/logo_trans"></RelativeLayout>
+
+        </FrameLayout>
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="18dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="64dp"
+            android:layout_marginTop="310dp"
+            android:text="Combo 1" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="21dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="310dp"
+            android:layout_marginEnd="66dp"
+            android:text="Combo 2" />
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="121dp"
+            android:layout_height="148dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="47dp"
+            android:layout_marginTop="146dp"
+            android:src="@drawable/combo1" />
+
+        <ImageView
+        android:id="@+id/imageView15"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_height="141dp"
+        android:layout_marginEnd="43dp"
+        android:layout_marginTop="392dp"
+        android:layout_width="127dp"
+        android:src="@drawable/combo4" />
+
+        <ImageView
+            android:id="@+id/imageView16"
+            android:layout_width="137dp"
+            android:layout_height="139dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="235dp"
+            android:layout_marginBottom="440dp"
+            android:src="@drawable/combo5" />
+
+        <ImageView
+            android:id="@+id/imageView19"
+            android:layout_width="128dp"
+            android:layout_height="144dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="50dp"
+            android:layout_marginBottom="200dp"
+            android:src="@drawable/combo6" />
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="59dp"
+            android:layout_marginBottom="130dp"
+            android:text="Combo 3" />
+
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="64dp"
+            android:layout_marginBottom="128dp"
+            android:text="Combo 4" />
+
+>>>>>>> Stashed changes
+    </RelativeLayout>
+>>>>>>> Stashed changes
 
     </RelativeLayout>
 
