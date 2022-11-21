@@ -28,12 +28,19 @@
         <action
             android:id="@+id/action_homeFragment_to_acerca_DeFragment"
             app:destination="@id/acerca_DeFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_comprasFragment"
+            app:destination="@id/comprasFragment" />
     </fragment>
     <fragment
         android:id="@+id/perfilFragment"
         android:name="com.example.onces20.view.ui.fragments.PerfilFragment"
         android:label="fragment_perfil"
-        tools:layout="@layout/fragment_perfil" />
+        tools:layout="@layout/fragment_perfil" >
+        <action
+            android:id="@+id/action_perfilFragment_to_loginActivity"
+            app:destination="@id/loginActivity" />
+    </fragment>
     <fragment
         android:id="@+id/productosFragment"
         android:name="com.example.onces20.view.ui.fragments.ProductsFragment"
@@ -48,6 +55,12 @@
         <action
             android:id="@+id/action_productosFragment_to_perfilFragment"
             app:destination="@id/perfilFragment" />
+        <action
+            android:id="@+id/action_productosFragment_to_loginActivity"
+            app:destination="@id/loginActivity" />
+        <action
+            android:id="@+id/action_productosFragment_to_comprasFragment"
+            app:destination="@id/comprasFragment" />
     </fragment>
     <fragment
         android:id="@+id/favoritosFragment"
@@ -63,6 +76,9 @@
         <action
             android:id="@+id/action_favoritosFragment_to_perfilFragment"
             app:destination="@id/perfilFragment" />
+        <action
+            android:id="@+id/action_favoritosFragment_to_loginActivity"
+            app:destination="@id/loginActivity" />
     </fragment>
     <fragment
         android:id="@+id/ruta_PedidosFragment"
@@ -83,6 +99,9 @@
         <action
             android:id="@+id/action_configuracionFragment_to_homeFragment"
             app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_configuracionFragment_to_loginActivity"
+            app:destination="@id/loginActivity" />
     </fragment>
     <fragment
         android:id="@+id/acerca_DeFragment"
@@ -95,15 +114,36 @@
         <action
             android:id="@+id/action_acerca_DeFragment_to_contactenosFragment"
             app:destination="@id/contactenosFragment" />
+        <action
+            android:id="@+id/action_acerca_DeFragment_to_loginActivity"
+            app:destination="@id/loginActivity" />
     </fragment>
     <fragment
         android:id="@+id/comentariosFragment"
         android:name="com.example.onces20.view.ui.fragments.ComentariosFragment"
         android:label="fragment_comentarios"
-        tools:layout="@layout/fragment_comentarios" />
+        tools:layout="@layout/fragment_comentarios" >
+        <action
+            android:id="@+id/action_comentariosFragment_to_loginActivity"
+            app:destination="@id/loginActivity" />
+    </fragment>
     <fragment
         android:id="@+id/contactenosFragment"
         android:name="com.example.onces20.view.ui.fragments.ContactenosFragment"
         android:label="fragment_contactenos"
-        tools:layout="@layout/fragment_contactenos" />
+        tools:layout="@layout/fragment_contactenos" >
+        <action
+            android:id="@+id/action_contactenosFragment_to_loginActivity"
+            app:destination="@id/loginActivity" />
+    </fragment>
+    <activity
+        android:id="@+id/loginActivity"
+        android:name="com.example.onces20.view.ui.activities.LoginActivity"
+        android:label="activity_login"
+        tools:layout="@layout/activity_login" />
+    <fragment
+        android:id="@+id/comprasFragment"
+        android:name="com.example.onces20.view.ui.fragments.ComprasFragment"
+        android:label="fragment_compras"
+        tools:layout="@layout/fragment_compras" />
 </navigation>

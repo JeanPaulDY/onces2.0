@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.ui.fragments.ComprasFragment">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/naranja_main"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/theme_gradients_background">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/logo_trans">
+            </ImageView>
+
+        </RelativeLayout>
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/preciototal"
+        android:layout_width="150dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="650dp"
+        android:layout_marginLeft="230dp"
+        android:background="@drawable/borde_redondo"
+        android:textColor="@color/black"
+        android:text="0"
+        android:textAlignment="center"
+        android:textSize="40dp">
+    </TextView>
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="650dp"
+        android:layout_marginLeft="10dp"
+        android:text="Precio Total:"
+        android:textStyle="bold"
+        android:textSize="30dp">
+    </TextView>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerviewcompra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="155dp">
+    </androidx.recyclerview.widget.RecyclerView>
+
+</FrameLayout>

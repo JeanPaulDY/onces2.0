@@ -93,7 +93,7 @@
                             android:layout_width="100dp"
                             android:layout_height="100dp"
                             android:id="@+id/cardProductos"
-                            android:src="@drawable/carrito">
+                            android:src="@drawable/productos">
                         </ImageView>
                         <TextView
                             android:layout_width="wrap_content"
@@ -125,8 +125,8 @@
                         <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            android:id="@+id/cardFavoritos"
-                            android:src="@drawable/favoritos">
+                            android:id="@+id/cardCompras"
+                            android:src="@drawable/carrito">
                         </ImageView>
                         <TextView
                             android:layout_width="wrap_content"
@@ -135,7 +135,7 @@
                             android:textSize="18sp"
                             android:textStyle="bold"
                             android:textAlignment="center"
-                            android:text="Favoritos"
+                            android:text="compras"
                             android:fontFamily="@font/roboto_mono_medium_italic">
                         </TextView>
                     </LinearLayout>

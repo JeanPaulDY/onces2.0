@@ -12,9 +12,19 @@
         android:icon="@drawable/perfilbar">
     </item>
     <item
+        android:id="@+id/carritobar"
+        android:title="carrito"
+        android:icon="@drawable/ic_baseline_shopping_cart_24">
+    </item>
+    <item
         android:id="@+id/mapabar"
         android:title="Mapa"
         android:icon="@drawable/mapabar">
+    </item>
+    <item
+        android:id="@+id/cerrarsesion"
+        android:title="CerrarSesion"
+        android:icon="@drawable/cerrar_sesion">
     </item>
 
 </menu>

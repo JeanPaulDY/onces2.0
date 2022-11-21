@@ -10,8 +10,8 @@ class HomeActivity : AppCompatActivity() {
         setContentView(R.layout.activity_home)
     }
 
-    override fun onBackPressed() {
-        return
-    }
+    //override fun onBackPressed() {
+        //return
+    //}
 
 }
