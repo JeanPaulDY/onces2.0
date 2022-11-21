@@ -4,11 +4,12 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
-import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
+import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.onces20.R
@@ -29,11 +30,15 @@ class ComprasFragment : Fragment(), OnCompraItemClickListener {
         inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?
     ): View? {
         val view = inflater.inflate(R.layout.fragment_compras, container, false)
-        recyclerView = view.findViewById(R.id.recyclerviewcompra)
-        precioT = view.findViewById(R.id.preciototal)
-        adapter = ComprasAdapter(requireContext(), this)
-        recyclerView.layoutManager = LinearLayoutManager(context)
-        recyclerView.adapter = adapter
+        val btfactura=view.findViewById<Button>(R.id.BTcompletarcompra)
+        btfactura.setOnClickListener {
+            findNavController().navigate(R.id.action_comprasFragment_to_facturaFragment2)
+        }
+        recyclerView=view.findViewById(R.id.recyclerviewcompra)
+        precioT= view.findViewById(R.id.preciototal)
+        adapter= ComprasAdapter(requireContext(), this)
+        recyclerView.layoutManager=LinearLayoutManager(context)
+        recyclerView.adapter=adapter
         observeData()
         preciototal()
         return view

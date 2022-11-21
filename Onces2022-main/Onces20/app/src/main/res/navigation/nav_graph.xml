@@ -145,5 +145,13 @@
         android:id="@+id/comprasFragment"
         android:name="com.example.onces20.view.ui.fragments.ComprasFragment"
         android:label="fragment_compras"
-        tools:layout="@layout/fragment_compras" />
+        tools:layout="@layout/fragment_compras" >
+        <action
+            android:id="@+id/action_comprasFragment_to_facturaFragment2"
+            app:destination="@id/facturaFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/facturaFragment2"
+        android:name="com.example.onces20.view.ui.fragments.FacturaFragment"
+        android:label="FacturaFragment" />
 </navigation>
