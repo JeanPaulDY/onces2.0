@@ -27,21 +27,63 @@
         </RelativeLayout>
     </RelativeLayout>
     <TextView
-        android:id="@+id/preciototal"
+        android:id="@+id/iva"
         android:layout_width="150dp"
-        android:layout_height="55dp"
-        android:layout_marginTop="580dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="500dp"
         android:layout_marginLeft="230dp"
         android:background="@drawable/borde_redondo"
         android:textColor="@color/black"
         android:text="0"
         android:textAlignment="center"
-        android:textSize="40dp">
+        android:textSize="30dp">
     </TextView>
     <TextView
         android:layout_width="200dp"
         android:layout_height="55dp"
-        android:layout_marginTop="580dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="10dp"
+        android:text="IVA 19%:"
+        android:textStyle="bold"
+        android:textSize="30dp">
+    </TextView>
+    <TextView
+        android:id="@+id/subtotal"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="230dp"
+        android:background="@drawable/borde_redondo"
+        android:textColor="@color/black"
+        android:text="0"
+        android:textAlignment="center"
+        android:textSize="30dp">
+    </TextView>
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="10dp"
+        android:text="Subtotal:"
+        android:textStyle="bold"
+        android:textSize="30dp">
+    </TextView>
+    <TextView
+        android:id="@+id/preciototal"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="600dp"
+        android:layout_marginLeft="230dp"
+        android:background="@drawable/borde_redondo"
+        android:textColor="@color/black"
+        android:text="0"
+        android:textAlignment="center"
+        android:textSize="30dp">
+    </TextView>
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="600dp"
         android:layout_marginLeft="10dp"
         android:text="Precio Total:"
         android:textStyle="bold"

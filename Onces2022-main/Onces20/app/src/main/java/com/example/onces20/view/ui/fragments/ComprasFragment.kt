@@ -23,6 +23,8 @@ class ComprasFragment : Fragment(), OnCompraItemClickListener {
     lateinit var recyclerView: RecyclerView
     lateinit var adapter: ComprasAdapter
     lateinit var precioT: TextView
+    lateinit var precioS: TextView
+    lateinit var precioiva: TextView
     val database: FirebaseFirestore = FirebaseFirestore.getInstance()
     private val viewModel by lazy { ViewModelProvider(this).get(ComprasViewModel::class.java) }
 
@@ -36,6 +38,8 @@ class ComprasFragment : Fragment(), OnCompraItemClickListener {
         }
         recyclerView=view.findViewById(R.id.recyclerviewcompra)
         precioT= view.findViewById(R.id.preciototal)
+        precioS= view.findViewById(R.id.subtotal)
+        precioiva= view.findViewById(R.id.iva)
         adapter= ComprasAdapter(requireContext(), this)
         recyclerView.layoutManager=LinearLayoutManager(context)
         recyclerView.adapter=adapter
