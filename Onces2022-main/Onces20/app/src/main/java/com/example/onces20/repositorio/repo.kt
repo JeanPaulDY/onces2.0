@@ -32,7 +32,7 @@ class repo {
                 result->
                 val listData= mutableListOf<compras>()
                 for (document in result){
-                    val productos=document.getString("producto")
+                    val productos=document.getString("titulo")
                     val precio=document.getString("precio")
                     val image=document.getString("image")
                     val compra=compras(productos!!,precio!!,image!!)
