@@ -44,7 +44,7 @@ class ComprasFragment : Fragment(), OnCompraItemClickListener {
         recyclerView.layoutManager=LinearLayoutManager(context)
         recyclerView.adapter=adapter
         observeData()
-        preciototal()
+        preciosubtotal()
         return view
     }
 
@@ -55,7 +55,7 @@ class ComprasFragment : Fragment(), OnCompraItemClickListener {
         })
     }
 
-    private fun preciototal() {
+    private fun preciosubtotal() {
         database.collection("compras")
             .get()
             .addOnSuccessListener { result ->
@@ -65,7 +65,7 @@ class ComprasFragment : Fragment(), OnCompraItemClickListener {
                     preciounitario.add(precio!!)
                 }
                 val preciototal = preciounitario.mapNotNull { it.toIntOrNull() }.sum()
-                precioT.setText(Integer.toString(preciototal))
+                precioS.setText(Integer.toString(preciototal))
 
             }
     }
