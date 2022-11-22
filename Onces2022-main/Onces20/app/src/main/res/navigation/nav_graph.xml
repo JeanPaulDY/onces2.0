@@ -40,6 +40,12 @@
         <action
             android:id="@+id/action_perfilFragment_to_loginActivity"
             app:destination="@id/loginActivity" />
+        <action
+            android:id="@+id/action_perfilFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_perfilFragment_to_comprasFragment"
+            app:destination="@id/comprasFragment" />
     </fragment>
     <fragment
         android:id="@+id/productosFragment"
@@ -60,6 +66,9 @@
             app:destination="@id/loginActivity" />
         <action
             android:id="@+id/action_productosFragment_to_comprasFragment"
+            app:destination="@id/comprasFragment" />
+        <action
+            android:id="@+id/action_productosFragment_to_comprasFragment2"
             app:destination="@id/comprasFragment" />
     </fragment>
     <fragment
@@ -102,6 +111,12 @@
         <action
             android:id="@+id/action_configuracionFragment_to_loginActivity"
             app:destination="@id/loginActivity" />
+        <action
+            android:id="@+id/action_configuracionFragment_to_ruta_PedidosFragment2"
+            app:destination="@id/ruta_PedidosFragment" />
+        <action
+            android:id="@+id/action_configuracionFragment_to_comprasFragment"
+            app:destination="@id/comprasFragment" />
     </fragment>
     <fragment
         android:id="@+id/acerca_DeFragment"
@@ -117,6 +132,18 @@
         <action
             android:id="@+id/action_acerca_DeFragment_to_loginActivity"
             app:destination="@id/loginActivity" />
+        <action
+            android:id="@+id/action_acerca_DeFragment_to_comprasFragment"
+            app:destination="@id/comprasFragment" />
+        <action
+            android:id="@+id/action_acerca_DeFragment_to_perfilFragment"
+            app:destination="@id/perfilFragment" />
+        <action
+            android:id="@+id/action_acerca_DeFragment_to_ruta_PedidosFragment"
+            app:destination="@id/ruta_PedidosFragment" />
+        <action
+            android:id="@+id/action_acerca_DeFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
     </fragment>
     <fragment
         android:id="@+id/comentariosFragment"
@@ -126,6 +153,18 @@
         <action
             android:id="@+id/action_comentariosFragment_to_loginActivity"
             app:destination="@id/loginActivity" />
+        <action
+            android:id="@+id/action_comentariosFragment_to_ruta_PedidosFragment"
+            app:destination="@id/ruta_PedidosFragment" />
+        <action
+            android:id="@+id/action_comentariosFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_comentariosFragment_to_comprasFragment"
+            app:destination="@id/comprasFragment" />
+        <action
+            android:id="@+id/action_comentariosFragment_to_perfilFragment"
+            app:destination="@id/perfilFragment" />
     </fragment>
     <fragment
         android:id="@+id/contactenosFragment"
@@ -135,6 +174,18 @@
         <action
             android:id="@+id/action_contactenosFragment_to_loginActivity"
             app:destination="@id/loginActivity" />
+        <action
+            android:id="@+id/action_contactenosFragment_to_perfilFragment"
+            app:destination="@id/perfilFragment" />
+        <action
+            android:id="@+id/action_contactenosFragment_to_ruta_PedidosFragment"
+            app:destination="@id/ruta_PedidosFragment" />
+        <action
+            android:id="@+id/action_contactenosFragment_to_comprasFragment"
+            app:destination="@id/comprasFragment" />
+        <action
+            android:id="@+id/action_contactenosFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
     </fragment>
     <activity
         android:id="@+id/loginActivity"

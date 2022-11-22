@@ -53,6 +53,7 @@ class ProductsFragment : Fragment(),OnBookItemClickListener {
             when(it.itemId){
                 R.id.homebar -> findNavController().navigate(R.id.action_productosFragment_to_homeFragment)
                 R.id.perfilbar -> findNavController().navigate(R.id.action_productosFragment_to_perfilFragment)
+                R.id.carritobar -> findNavController().navigate(R.id.action_productosFragment_to_comprasFragment)
                 R.id.mapabar -> findNavController().navigate(R.id.action_productosFragment_to_ruta_PedidosFragment)
                 R.id.cerrarsesion->{
                     firebaseAuth.signOut()

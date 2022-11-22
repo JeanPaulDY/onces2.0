@@ -8,9 +8,10 @@ import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
 import com.example.onces20.R
 import com.google.android.material.bottomnavigation.BottomNavigationView
+import com.google.firebase.auth.FirebaseAuth
 
 class ConfiguracionFragment : Fragment() {
-
+    lateinit var firebaseAuth: FirebaseAuth
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -23,9 +24,15 @@ class ConfiguracionFragment : Fragment() {
         val btm=view.findViewById<BottomNavigationView>(R.id.buttonnavigation)
         btm.setOnNavigationItemReselectedListener {
             when(it.itemId){
-                R.id.homebar -> findNavController().navigate(R.id.action_productosFragment_to_homeFragment)
-                R.id.perfilbar -> findNavController().navigate(R.id.action_productosFragment_to_perfilFragment)
-                R.id.mapabar -> findNavController().navigate(R.id.action_productosFragment_to_ruta_PedidosFragment)
+                R.id.homebar -> findNavController().navigate(R.id.action_configuracionFragment_to_homeFragment)
+                R.id.perfilbar -> findNavController().navigate(R.id.action_configuracionFragment_to_perfilFragment)
+                R.id.mapabar -> findNavController().navigate(R.id.action_configuracionFragment_to_ruta_PedidosFragment)
+                R.id.carritobar -> findNavController().navigate(R.id.action_configuracionFragment_to_comprasFragment)
+                R.id.cerrarsesion->{
+                    firebaseAuth.signOut()
+                    findNavController().navigate(R.id.action_configuracionFragment_to_loginActivity)
+                    true
+                }
             }
         }
     }
